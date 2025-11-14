@@ -1,7 +1,4 @@
-# school-sports-lending
 School Lending Project
-=======
-# school_sports_lending
 
 A new Flutter project.
 
@@ -36,6 +33,24 @@ For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 
+#Here are some of the screenshots taken from the project :
+1. Login Screen :
+   https://github.com/Ashish-Devops-304/school-sports-lending/blob/service/assets/Login_screen.png
+
+2. Register Screen:
+   https://github.com/Ashish-Devops-304/school-sports-lending/blob/service/assets/Register_screen.png
+
+3. Home Screen after login :
+   https://github.com/Ashish-Devops-304/school-sports-lending/blob/service/assets/Home_Screen.png
+
+4. My Sports Item List :
+   https://github.com/Ashish-Devops-304/school-sports-lending/blob/service/assets/Sport_item_list.png
+
+5. My Loan Screen :
+   https://github.com/Ashish-Devops-304/school-sports-lending/blob/service/assets/My_Loans_screen.png
+
+6. Add Sports Item:
+https://github.com/Ashish-Devops-304/school-sports-lending/blob/service/assets/Add_sports_item.png
 
 
 
