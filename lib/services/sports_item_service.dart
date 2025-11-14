@@ -18,7 +18,6 @@ class SportsItemService {
         final pickedFile = File(file.path);
         parseFile = ParseFile(pickedFile, name: file.name);
       }
-
       await parseFile.save();
 
       final sportsItem = ParseObject('SportsItem')
