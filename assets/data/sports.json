@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Football",
+    "category": "Outdoor",
+    "description": "Standard size-5 football suitable for training and matches.",
+    "quantity": 10,
+    "condition": "Good",
+    "image": "assets/images/football.png"
+  },
+  {
+    "name": "Cricket Bat",
+    "category": "Outdoor",
+    "description": "Professional-grade wooden cricket bat ideal for practice sessions.",
+    "quantity": 8,
+    "condition": "Excellent",
+    "image": "assets/images/cricket_bat.png"
+  },
+  {
+    "name": "Basketball",
+    "category": "Indoor/Outdoor",
+    "description": "Durable basketball with synthetic leather cover for smooth handling.",
+    "quantity": 6,
+    "condition": "Good",
+    "image": "assets/images/basketball.png"
+  },
+  {
+    "name": "Shuttlecock",
+    "category": "Indoor",
+    "description": "Feather shuttlecock used for badminton practice and matches.",
+    "quantity": 20,
+    "condition": "Very Good",
+    "image": "assets/images/shuttlecock.png"
+  },
+  {
+    "name": "Volleyball",
+    "category": "Outdoor",
+    "description": "Soft-touch volleyball suitable for school tournaments and practice.",
+    "quantity": 5,
+    "condition": "Good",
+    "image": "assets/images/volleyball.png"
+  }
+]
+s
