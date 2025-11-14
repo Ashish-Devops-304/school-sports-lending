@@ -13,12 +13,8 @@ class UserProvider with ChangeNotifier {
 
       if (currentUser != null) {
 
-        // --- THIS IS THE FIX ---
-        // 'fetch()' returns a generic ParseObject,
-        // so we must cast it back to a ParseUser.
         final ParseObject fetchedObject = await currentUser.fetch();
         _user = fetchedObject as ParseUser; 
-        // --- END FIX ---
 
       } else {
         _user = null;
