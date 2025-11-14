@@ -20,12 +20,9 @@ class LoanService {
   }) async {
     try {
       
-      // --- THIS IS THE FIX ---
-      // 'fetch()' returns the ParseObject itself
+
       final ParseObject freshItem = await item.fetch();
-      // We don't need to check for .success or .result here
-      // The try/catch block will handle any errors
-      // --- END FIX ---
+
 
       final currentQty = freshItem.get<int>('quantity') ?? 0;
       if (currentQty <= 0) {
