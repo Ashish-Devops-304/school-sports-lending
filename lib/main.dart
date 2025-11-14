@@ -10,7 +10,6 @@ import 'package:school_sports_lending/screens/add_loan_screen.dart';
 import 'package:school_sports_lending/screens/sports_item_list_screen.dart';
 import 'package:school_sports_lending/screens/add_sports_item_screen.dart';
 
-
 const keyApplicationId = 'ziCuCbYm5081Ts5h7jkDDRMCX3FsLQcfedoqtrOW';
 const keyClientKey = 'OOgOhb7oemww9MgAZYiBZ6IBOYSETtK6Xs2Ak8TJ';
 const keyParseServerUrl = 'https://parseapi.back4app.com';
