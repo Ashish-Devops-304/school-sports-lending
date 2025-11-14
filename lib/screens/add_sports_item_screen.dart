@@ -63,7 +63,6 @@ class _AddSportsItemScreenState extends State<AddSportsItemScreen> {
       );
     }
   }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
