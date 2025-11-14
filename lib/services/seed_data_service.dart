@@ -10,13 +10,12 @@ class SeedDataService {
       final List<dynamic> items = json.decode(jsonString);
 
       for (var item in items) {
-        // ... (your existing fields) ...
         final name = item['name'] ?? 'Unnamed';
         final category = item['category'] ?? 'Misc';
         final description = item['description'] ?? '';
         final quantity = item['quantity'] ?? 0;
         final condition = item['condition'] ?? 'Good';
-        final imagePath = item['image']; // e.g., "assets/images/basketball.png"
+        final imagePath = item['image'];
 
         final query = QueryBuilder<ParseObject>(ParseObject('SportsItem'))
           ..whereEqualTo('name', name);
@@ -34,7 +33,7 @@ class SeedDataService {
           ..set('quantity', quantity)
           ..set('condition', condition);
 
-        // --- FIX: Correctly load image from assets ---
+
         if (imagePath != null) {
           try {
             final ByteData byteData = await rootBundle.load(imagePath);
@@ -49,7 +48,7 @@ class SeedDataService {
             print('Could not load asset image $imagePath: $e');
           }
         }
-        // --- End Fix ---
+
 
         final response = await parseItem.save();
         if (response.success) {
