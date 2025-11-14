@@ -1,4 +1,4 @@
-#School Lending Project
+#**School Lending Project**
 
 A new Flutter project.
 
