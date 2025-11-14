@@ -74,7 +74,6 @@ class _SportsItemListScreenState extends State<SportsItemListScreen> {
               ),
             ),
       floatingActionButton: FloatingActionButton(
-        // Use the correct route name from main.dart
         onPressed: () => Navigator.pushNamed(context, '/add_item').then((_) => _load()),
         child: const Icon(Icons.add),
         tooltip: 'Add Item',
