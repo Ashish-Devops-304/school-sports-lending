@@ -8,7 +8,6 @@ class LoanListScreen extends StatefulWidget {
   @override
   State<LoanListScreen> createState() => _LoanListScreenState();
 }
-
 class _LoanListScreenState extends State<LoanListScreen> {
   final _svc = LoanService();
   List<ParseObject> _loans = [];
