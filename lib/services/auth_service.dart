@@ -11,7 +11,7 @@ class AuthService {
     throw Exception(response.error?.message ?? 'Registration failed');
   }
 
-  /// Login existing user
+  /// Login User
   Future<ParseUser?> login(String email, String password) async {
     final user = ParseUser(email, password, email);
     final response = await user.login();
