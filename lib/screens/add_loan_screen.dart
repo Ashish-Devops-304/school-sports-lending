@@ -24,7 +24,6 @@ class _AddLoanScreenState extends State<AddLoanScreen> {
     _loadItems();
   }
 
-  /// 🔹 Fetch available sports items from Parse database
   Future<void> _loadItems() async {
     setState(() => _loading = true);
 
@@ -52,7 +51,6 @@ class _AddLoanScreenState extends State<AddLoanScreen> {
     }
   }
 
-  /// 🔹 Validate and submit a new loan record
   Future<void> _submitLoan() async {
     if (_selectedItem == null || _dueDate == null) {
       ScaffoldMessenger.of(context).showSnackBar(
