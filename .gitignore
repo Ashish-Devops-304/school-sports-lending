@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
 ### AL ###
 #Template for AL projects for Dynamics 365 Business Central
 #launch.json folder
@@ -72,6 +68,4 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
->>>>>>> 49d0be6 (First commit)
->>>>>>> c9aadac (First commit):.gitignore
->>>>>>> 48faea3 (First commit)
+
